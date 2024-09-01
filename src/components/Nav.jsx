@@ -2,7 +2,7 @@ import React from "react";
 import appimg from "../assets/weather-app.png";
 function Nav() {
   return (
-    <div className="items-center flex h-1/10 sm:h-1.5/10 w-full justify-around ">
+    <div className="items-center flex py-4 h-2/10 sm:h-1.5/10 w-full justify-around ">
       <div>
         <img className="sm:w-20 w-16" src={appimg} alt="App Image" />
       </div>
