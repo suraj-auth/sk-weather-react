@@ -55,7 +55,7 @@ function Hero() {
         <Rloader />
       ) : (
         <>
-          <div className="m-auto border border-white mt-6 sm:mt-4 rounded-2xl 3.5/10 w-8/10 bg-blue-800">
+          <div className="m-auto border border-white mt-10 rounded-2xl w-8/10 bg-blue-800">
             <div className="text-3xl font-bold text-white pl-5 py-2">Today</div>
             <div className="flex p-2 gap-4 items-center">
               <div className="text-4xl transition-all delay-1000 font-bold text-white pl-2 mr-2 sm:mr-28">
@@ -70,28 +70,28 @@ function Hero() {
               <h1 className="text-white font-bold">{tempval && tempval}</h1>
             </div>
           </div>
-          <div className="m-auto mt-6 rounded-2xl h-5/6 sm:h-3/10 w-8/10 flex justify-between ">
-            <div className="h-9/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-14 pb-14">
+          <div className="m-auto mt-8 rounded-2xl h-5/6 sm:h-3/10 w-8/10 flex justify-between ">
+            <div className="h-9/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-4 pt-6 pb-6">
               <h1 className="text-slate-300 font-medium">Humidity</h1>
-              <div className="flex items-center gap-1">
+              <div className="flex flex-col items-center gap-4">
                 <img className="w-8" src={humid} alt="" />
                 <h1 className="text-slate-200 font-medium">
                   {data.humidity && `${data.humidity}%`}
                 </h1>
               </div>
             </div>
-            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-14 pb-14">
+            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-4 pt-6 pb-6">
               <h1 className="text-slate-300 font-medium">Wind Speed</h1>
-              <div className="flex items-center gap-1">
+              <div className="flex flex-col items-center gap-4">
                 <img className="w-8" src={storm} alt="" />
                 <h1 className="text-slate-200 font-medium">
                   {data.speed && `${data.speed}kph`}
                 </h1>
               </div>
             </div>
-            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-14 pb-14">
+            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-4 pt-6 pb-6">
               <h1 className="text-slate-300 font-medium">Feels Like</h1>
-              <div className="flex items-center gap-1">
+              <div className="flex flex-col items-center gap-4">
                 <img className="w-8" src={hot} alt="" />
                 <h1 className="text-slate-200 font-medium">
                   {data.feels && `${data.feels}॰C`}

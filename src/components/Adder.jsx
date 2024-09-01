@@ -13,7 +13,7 @@ function Adder() {
     let arr = [];
     for (const element of cityobj) {
       let a = element.toLowerCase();
-      if (a.includes(inval) && inval != "") arr.push(element);
+      if (a.includes(inval.toLowerCase()) && inval != "") arr.push(element);
     }
     setItem(arr);
   }
@@ -27,7 +27,7 @@ function Adder() {
   }
   return (
     <div className=" relative">
-      <div className="flex mt-3 w-8/10 m-auto">
+      <div className="flex mt-8 w-8/10 m-auto">
         <div className="flex w-full">
           <div className="w-7/10">
             <input
