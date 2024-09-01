@@ -71,7 +71,7 @@ function Hero() {
             </div>
           </div>
           <div className="m-auto mt-6 rounded-2xl h-5/6 sm:h-3/10 w-8/10 flex justify-between ">
-            <div className="h-9/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-6 pb-6">
+            <div className="h-9/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-14 pb-14">
               <h1 className="text-slate-300 font-medium">Humidity</h1>
               <div className="flex items-center gap-1">
                 <img className="w-8" src={humid} alt="" />
@@ -80,7 +80,7 @@ function Hero() {
                 </h1>
               </div>
             </div>
-            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-6 pb-6">
+            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-14 pb-14">
               <h1 className="text-slate-300 font-medium">Wind Speed</h1>
               <div className="flex items-center gap-1">
                 <img className="w-8" src={storm} alt="" />
@@ -89,7 +89,7 @@ function Hero() {
                 </h1>
               </div>
             </div>
-            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-6 pb-6">
+            <div className="h-6.5/10 flex flex-col items-center justify-center rounded-lg w-3/10 bg-blue-800 gap-2 pt-14 pb-14">
               <h1 className="text-slate-300 font-medium">Feels Like</h1>
               <div className="flex items-center gap-1">
                 <img className="w-8" src={hot} alt="" />

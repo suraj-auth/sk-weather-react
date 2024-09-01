@@ -18,7 +18,7 @@ function Home() {
         setData,
       }}
     >
-      <div className="sm:min:h-full min:h-full pb-14 w-full sm:w-2/6 m-auto bg-sky-950">
+      <div className="min:h-full pb-28 w-full sm:w-2/6 m-auto bg-sky-950">
         <Nav />
         <Adder />
         <Hero />
